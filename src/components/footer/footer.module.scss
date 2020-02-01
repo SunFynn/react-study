@@ -1,0 +1,21 @@
+.footer{
+  height: 44px;
+  background: #2C2F33;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  p{
+    margin: 0 auto;
+    line-height: 44px;
+    text-align: center;
+    color: #fff;
+    opacity: 0.4;
+    filter: alpha(opacity=40);
+    position: relative;
+    img{
+      width: 20px;
+      position: absolute;
+      top: 13px;
+    }
+  }
+}

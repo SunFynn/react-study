@@ -1,0 +1,38 @@
+.header{
+  width: 100%;
+  height: 52px;
+  background: #2c2f33;
+  overflow: hidden;
+  .time{
+    float: right;
+    line-height: 52px;
+    color: #fff;
+    opacity: 0.8;
+  }
+  ul{
+    overflow: hidden;
+    line-height: 52px;
+    float: left;  
+    li{
+      list-style: none;
+      float: left;
+      display: inline;
+      position: relative;
+      z-index: 2;
+      a{
+        font-size: 14px;
+        display: inline-block;
+        color: #fff;
+        opacity: 0.8;
+        filter: alpha(opacity=80);
+        line-height: 52px;
+        margin-left: 4px;
+        padding:0px 12px;
+        text-decoration: none;
+      }
+    }
+    .active{
+      background:red
+    }
+  }
+}
